@@ -1,0 +1,368 @@
+html{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+body{
+    /* background-color: bisque; */
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(8, 2, 2);
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+
+
+/* Scroll bar */
+body::-webkit-scrollbar {
+  width: 0.2em;
+}
+
+body::-webkit-scrollbar-thumb {
+background-color:  gray;
+outline: 1px solid rgb(7, 7, 7);
+
+}
+
+.MediaDiv{
+    /* 
+        font-size: 1.5em; */
+        z-index: 20;
+        /* margin-left:-2vw; */
+    }
+
+
+/* Navbar for mobile*/
+.overlay{
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left:-100vw;
+    top: 0;
+    left: 0;
+    background-color: rgb(241, 234, 234);
+    color: rgb(12, 12, 12);
+    overflow: hidden; 
+    transition: 0.5s;
+  }
+
+.overlay-content ul{
+   list-style: none;
+ }
+
+  /* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%; 
+    text-align: center; 
+    margin-top: 30px; 
+}
+
+  /* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block; 
+    transition: 0.3s; 
+    font-size: 1.5em;
+}
+
+  /* Position the close button (top right corner) */ 
+.overlay .closebtn {
+    position: absolute;
+    right: 35px;
+    top: 2px;
+    font-weight: 900;
+  }
+
+ /*media icons */
+.icon{
+    display: inline-block;
+    font-size: 1.5em;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 2px;
+}
+  /* media icons */
+  .icon.mobile{
+    float: right;
+    color: white;
+  }
+
+ /* burger navbar */
+.Bars{
+    margin-left: -5vw;
+}
+
+.Desktop{
+    display: none;
+
+}
+
+/* navbar */
+.navbar-expand-lg{
+    color: black;
+    font-size: 1.5em;
+}
+
+/* paragraph text for all the pages and sections */
+p{
+    font-size: 14px;
+    font-weight: 250;
+    line-height: 18px;
+    text-align: justify;
+    text-size-adjust: 2px;
+    margin: 20px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+/*  general classes*/
+.hideMobile{
+    display: none;
+}
+
+/* icons */
+.icon a{
+    color: black;
+}
+.icon{
+    color: black;
+}
+a{
+    color: rgb(0, 0, 0);
+}
+
+a:hover{
+    color: rgb(128, 128, 128);
+}
+
+
+/* about us page */
+.AboutUsImage{
+    width: 100%;
+}
+/*contact section/page */
+.FormButton{
+    color: white;
+    background-color: #0f0f0e;
+    border-radius: 50px;
+    font-weight: 600;
+    width: 60vw;
+    padding: 10px;
+    margin-left: 20vw;
+}
+  /* form section */
+.form-control{
+    background-color: rgb(209, 204, 204);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.form-controlTwo{
+    font-size: 14px;
+    border: none;
+    color: rgb(3, 3, 3);
+    border-bottom: 1px solid black;
+    width: 80vw;
+    
+}
+/*about us page*/
+.icon{
+    display: inline-block;
+    font-size: 1.5em;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    /* background-color: white; */
+    background-color:  rgb(209, 204, 204);
+}
+    /* Clients page */
+    .ClientsImages{
+        width: 100%;
+    }
+    .ProjectImage{
+        width: 100%;
+    }
+    .ImageDiv:hover{
+    color: rgb(160, 23, 240);
+    opacity: 0.4;
+    cursor: pointer;
+    }
+
+    /* .ImageDiv{
+        z-index: 2;
+    } */
+
+/* footer section */
+ /* footer text */
+
+ .icons{
+    display: inline-block;
+    font-size: 1.5em;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    
+}
+ .CopyText{
+    text-align: center;
+    font-size: 18px;
+}
+.FullName{
+    color:#070706;
+}
+
+footer{
+    margin-top: -3vh;
+}
+
+.ProjectText{
+    transform: translate(-70px,-310px);
+    color: hotpink;
+}
+
+.TypeOfProject{
+    transform: translate(10px,-120px);
+    color: hotpink;
+}
+
+
+.hide{
+    display: block;
+}
+.hid{
+    display: none;
+}
+.iconn{
+margin-left: 40vw;
+font-size: 2em;
+}
+
+   /* --------------------media queries */
+ 
+ /* // Extra small devices (portrait phones, less than 576px) */
+ /* // No media query for `xs` since this is the default in Bootstrap */
+ 
+ /* // -Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (orientation: landscape) { 
+ 
+   
+ }
+ 
+ /* -Medium devices (tablets or ipad) */
+ @media (min-width: 768px) {
+
+    
+   /* navbar section*/
+   .TabletNavbar{
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+  }
+   /* burger navbar */
+  .Bars{
+    margin-left: 5vw;
+  }
+
+    /* Clients page */
+.ClientsImages{
+    width: 60%;
+}
+/* about us page */
+.AboutUsImage{
+    width: 60%;
+}
+
+.ProjectImage{
+    width: 80%;
+}
+
+.FormButton{
+    width: 25vw;
+    margin-left: 20vw;
+}
+.ProjectText{
+    transform: translate(50px,200px);
+    z-index: 10;
+}
+.TypeOfProject{
+    transform: translate(50px,200px);
+    z-index: 10;
+}
+
+
+
+}
+ 
+ /* -Large devices (ipad pro) */
+ @media (min-width: 992px) { 
+    .mobile-only{
+        display: none;
+    }
+    .Desktop{
+    display: block;
+    color: black;
+    }  
+
+    .navbar-nav{
+        transform: translateX(400px);
+      }
+
+/* Landing page */
+
+.FormButton{
+    width: 20vw;
+    margin-left: 15vw;
+}
+
+    
+ }
+ @media screen and (min-width: 1200px) {
+
+    .ProjectText{
+        transform: translate(50px,-80px);
+        z-index: 10;
+        color: hotpink;
+    }
+    .TypeOfProject{
+        transform: translate(50px,-20px);
+        z-index: 10;
+        color: hotpink;
+    }
+    .hide{
+        display: none;
+    }
+    .hid{
+        display: block;
+    }
+    .ContactDiv{
+        margin-top: 2vh;
+        margin-left: 3vw;
+    }
+    .card{
+        border: none;
+    }
+    .ico{
+        font-size: 3em;
+    }
+ 
+   }
+  
+ @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}
