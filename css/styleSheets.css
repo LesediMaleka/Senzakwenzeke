@@ -432,6 +432,32 @@ h4{
     color:gray;
 }
 
+/*contact section/page */
+.FormButton{
+  color: white;
+  background-color: #0f0f0e;
+  border-radius: 50px;
+  font-weight: 600;
+  width: 60vw;
+  padding: 10px;
+  margin-left: 20vw;
+}
+/* form section */
+.form-control{
+  background-color: rgb(209, 204, 204);
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+
+.form-controlTwo{
+  font-size: 14px;
+  border: none;
+  color: rgb(3, 3, 3);
+  border-bottom: 1px solid black;
+  width: 80vw;
+  
+}
+
 
 footer{
     margin-top: -3vh;
