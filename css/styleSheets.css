@@ -183,7 +183,7 @@ h4{
  /* burger navbar */
 .Bars{
     margin-left: -5vw;
-    font-size: 1.5em;
+    font-size: 1.5em !important;
     margin-top: 2vh;
 }
 
@@ -381,14 +381,13 @@ h4{
         .DesktopOnly{
           display: block;
         }
-iframe{
-  width:45vw;
-   height :33vh;
-   
-}
-
+    iframe{
+      width:45vw;
+      height :33vh;
       
-   
+    }
+
+    
     .LogoImage{
         transform: translate(-0.2vw,2vh);
     }
@@ -417,11 +416,11 @@ iframe{
   .TeamText{
     margin-left: 1vw;
   }
+  /* Footer section */
+  .FooterText{
+    margin-top: -1vh;
+  }
  
-
-
-
-
     
  }
  @media screen and (min-width: 1200px) {
