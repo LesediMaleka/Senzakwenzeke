@@ -63,7 +63,7 @@ body{
     background-color: white;
     color: black;
     font-family: 'Montserrat', sans-serif;
-    color: rgb(8, 2, 2);
+    color:#132743;
     overflow-x: hidden; 
     overflow-y: hidden;
 }
@@ -114,6 +114,10 @@ h3{
 }
 h4{
     font-size: 18px;
+}
+.Heading{
+  font-size: 1.5em;
+  font-weight: 500;
 }
 
 /* Navbar for mobile*/
@@ -265,7 +269,7 @@ h4{
 /* form section */
 .form-control{
   background-color: rgb(209, 204, 204);
-  color: rgb(255, 255, 255);
+  color: #132743;
   font-weight: 400;
 }
 
@@ -273,7 +277,7 @@ h4{
   font-size: 14px;
   border: none;
   color: rgb(3, 3, 3);
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #132743;
   width: 80vw;
   
 }
@@ -372,7 +376,14 @@ h4{
         color: gray !important;
         text-transform: lowercase;
         } 
-
+        .DesktopOnly{
+          display: block;
+        }
+iframe{
+  width:45vw;
+   height :33vh;
+   
+}
 
       
    
@@ -404,7 +415,7 @@ h4{
   .TeamText{
     margin-left: 1vw;
   }
-
+ 
 
 
 
@@ -425,6 +436,13 @@ h4{
  .TeamText{
   margin-left: 5vw;
 }  
+
+/* Contact section */
+iframe{
+  width:40vw;
+   height :62vh;
+   
+}
  
    }
   
