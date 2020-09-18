@@ -183,6 +183,8 @@ h4{
  /* burger navbar */
 .Bars{
     margin-left: -5vw;
+    font-size: 1.5em;
+    margin-top: 2vh;
 }
 
 
@@ -447,6 +449,14 @@ iframe{
 .FooterTextAbout{
   margin-top: 15vh;
 }
+/* Services section */
+.card{
+  border: none;
+}
+.ico{
+  font-size: 3em;
+}
+
  
    }
   

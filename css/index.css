@@ -1,0 +1,45 @@
+.mobile-Nav{
+    display: block;
+    color: black;
+        z-index: 2;
+        position: fixed;
+  }
+  
+  /* burger navbar */
+.Bars{
+    margin-left: 7vw !important;
+    font-size: 1.5em;
+    margin-top: 2vh;
+    
+}
+
+ /* -Medium devices (tablets or ipad) */
+ @media (min-width: 768px) {
+
+      /* burger navbar */
+.Bars{
+    margin-left: 30vw !important;
+    font-size: 1.5em;
+    margin-top: 2vh;
+    
+}
+ }
+
+  
+  
+  
+   /* -Large devices (ipad pro) */
+   @media (min-width: 992px) { 
+  
+    .Desktop{
+      display: block;
+      color: black;
+          z-index: 2;
+          position: fixed;
+      } 
+  
+  
+  }
+  
+  
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}
