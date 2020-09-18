@@ -349,13 +349,23 @@ footer{
 
   /*Team section  */
   .TeamText{
-    margin-left: 10vw;
+    margin-left: 6vw;
   }
  
 
 .FormButton{
     width: 25vw;
     margin-left: 20vw;
+}
+
+/* Team section */
+.pic{
+  margin-left: 14vw;
+  height: 30vh;
+}
+ /* burger navbar */
+ .Bars{
+  margin-left: 5vw;
 }
 
 
@@ -388,7 +398,7 @@ footer{
     }
 
     .navbar-nav{
-        transform: translateX(190px);
+        transform: translateX(-20px);
         
       }
  
@@ -402,10 +412,11 @@ footer{
 /* Team section */
 .pic{
   height: 20vh;
+  margin-left: 1vw;
 }
 
   .TeamText{
-    margin-left: 10vw;
+    margin-left: 1vw;
   }
 
 
@@ -418,7 +429,7 @@ footer{
 
   /* navbar section */
   .navbar-nav{
-    transform: translateX(270px);
+    transform: translateX(440px);
     
   }
  .pic{
