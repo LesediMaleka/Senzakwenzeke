@@ -104,7 +104,7 @@ p{
     font-size: 14px;
     font-weight: 250;
     line-height: 18px;
-    text-align: left;
+    text-align: justify;
     text-size-adjust: 2px;
     margin: 20px;
 }
@@ -229,7 +229,7 @@ h4{
 
 /* About section */
 .AboutUsImage{
-  margin-left: 1vw;
+  margin-left: 7vw;
   padding: 15px;
  
 }
@@ -442,6 +442,10 @@ iframe{
   width:40vw;
    height :62vh;
    
+}
+/* About section */
+.FooterTextAbout{
+  margin-top: 15vh;
 }
  
    }
