@@ -61,9 +61,9 @@ html{
 body{
     /* background-color: bisque; */
     background-color: white;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    color:#132743;
+    font-family: 'Old Standard TT', serif;
+    /* font-family: 'Questrial', sans-serif;*/
+    color: #050A30;
     overflow-x: hidden; 
     overflow-y: hidden;
 }
@@ -71,42 +71,37 @@ strong{
     font-weight: 600;
 }
 
-
 /* Scroll bar */
-
-
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
-  
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
+  box-shadow: inset 0 0 5px #e43f5a;
   border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: red;
+  background: rgb(186,215,223);
   border-radius: 10px;
 }
 
-
 /* icons */
 .icon a{
-    color: black;
+    color: #050A30;
 }
 .icon{
-    color: black;
+    color: #050A30;
 }
 a{
-    color: black;
+    color: #050A30;
 }
 
 a:hover{
-    color: rgb(63, 21, 212);
+    color: #e43f5a;
 }
 
 /* paragraph text for all the pages and sections */
@@ -117,6 +112,7 @@ p{
     text-align: justify;
     text-size-adjust: 2px;
     margin: 20px;
+    font-family: 'Questrial', sans-serif;
 }
 h3{
     text-align: left;
@@ -131,22 +127,22 @@ h4{
 }
 
 /* Navbar for mobile*/
-
 /* Logo Div */
 .MediaDiv{
-  z-index: 20;
+  z-index: 19;
 }
 .overlay{
     height: 100%;
     width: 100%;
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 20;
     left:-100vw;
     top: 0;
     left: 0;
-    background-color: rgb(241, 234, 234);
-    color: rgb(12, 12, 12);
+    background-color: #e43f5a;
+    /*   background: rgb(186,215,223); */
+    color:#050A30;
     overflow: hidden; 
     transition: 0.5s;
   }
@@ -169,7 +165,7 @@ h4{
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: black;
+    color: #050A30;
     display: block; 
     transition: 0.3s; 
     font-size: 1.5em;
@@ -181,6 +177,7 @@ h4{
     right: 35px;
     top: 2px;
     font-weight: 900;
+    font-size: 1.5em;
   }
 
 
@@ -205,7 +202,7 @@ h4{
 
 .mobile-Nav{
     display: block;
-    color: black;
+    color: #050A30;
 }
 
 
@@ -224,8 +221,8 @@ h4{
   .indexBox{
     position: fixed;
     bottom: 40vh;
-    color:black;
-    background-color: rgb(241, 238, 238, 0.2);
+    color:#050A30;
+    background-color: rgba(186,215,223, 0.2);
 }
   .heroImage{
   
@@ -237,7 +234,7 @@ h4{
 
 /*Desktop navbar */
 .navbar-expand-lg{
-    color: gray !important;
+    color: #050A30 !important;
     font-size: 1.5em;
 }
 /*  general classes*/
@@ -260,38 +257,44 @@ h4{
 }
 .icon{
   display: inline-block;
-  font-size: 1.5em;
-  border: 1.5px solid white;
+  font-size: 1.4em;
+  /* border: 1.5px solid #050A30; */
   border-radius: 50%;
   height: 40px;
   width: 40px;
   text-align: center;
-  padding-top: 7px;
-  /* background-color: white; */
-  background-color:  rgb(209, 204, 204);
+  padding-top: 10px;
+  background-color:  rgb(186,215,223);
 }
 
 /* Donate page sction */
-.DonatePage{
+/* .DonatePage{
   background-image: url(../assets/Images/Homepage/h.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;
+  
+  
  
-}
-/* .DonateHeading{
-  margin-top: 5vh;
 } */
+.DonateBox{
+  border: 3px solid #050A30;
+  padding: 10px;
+  /* background-color:  rgb(186,215,223); */
+  border-radius: 10%;
+  margin-bottom: 5vh;
+}
+
 .DonatePageIcons{
-  color:white;
+  color: #050A30;
   font-size: 2.5em;
 
 }
 
 /*contact section/page */
 .FormButton{
-  color: white;
-  background-color: #0f0f0e;
+  color:  rgb(186,215,223);
+  background-color: #050A30;
   border-radius: 50px;
   font-weight: 600;
   width: 60vw;
@@ -303,15 +306,15 @@ h4{
 
 /* form section */
 .form-control{
-  background-color: rgb(209, 204, 204);
-  color: #132743;
+  background-color: rgb(186,215,223);
+  color: #050A30;
   font-weight: 400;
 }
 
 .form-controlTwo{
   font-size: 14px;
   border: none;
-  color: rgb(3, 3, 3);
+  color:#050A30;
   border-bottom: 1px solid #132743;
   width: 80vw;
   
@@ -335,13 +338,13 @@ h4{
   text-align: center;
   font-size: 14px;
   font-weight:400 ;
-  color: #000;
+  color: #050A30;
 }
 .FullName{
-  color:#000;
+  color:  rgb(186,215,223) !important;
 }
 .FullName:hover,a:hover{
-  color:gray;
+  color:#e43f5a;
 }
 
 .FooterText{
@@ -408,8 +411,8 @@ h4{
     }
     .Desktop{
         display: block;
-        color: gray !important;
-        text-transform: lowercase;
+        color: #050A30 !important;
+        text-transform: capitalize;
         } 
         .DesktopOnly{
           display: block;
@@ -433,7 +436,7 @@ h4{
         transform: translateX(-20px);
         
       }
- 
+   
 /* index section */
 .indexBox{
   top: 40vh;
@@ -451,12 +454,25 @@ h4{
   height: 20vh;
   margin-left: 1vw;
 }
+   .icon{
+    font-size: 1.1em;
+    height: 30px;
+    width: 30px;
+    padding-top: 7px;
+
+  }
+
   .TeamText{
     margin-left: 1vw;
   }
   /* Footer section */
   .FooterText{
     margin-top: -1vh;
+  }
+  /* Donate page */
+  .DonateBox{
+ margin-left: 1vw;
+ width: 30vw;
   }
  
     
@@ -465,7 +481,7 @@ h4{
 
   /* navbar section */
   .navbar-nav{
-    transform: translateX(280px);
+    transform: translateX(330px);
     
   }
  .pic{
