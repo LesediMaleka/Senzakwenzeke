@@ -49,6 +49,8 @@ table {
 	border-spacing: 0;
 }
 
+/* General */
+
 html{
     margin: 0;
     padding: 0;
@@ -61,7 +63,7 @@ body{
     background-color: white;
     color: black;
     font-family: 'Montserrat', sans-serif;
-    color: rgb(8, 2, 2);
+    color:#132743;
     overflow-x: hidden; 
     overflow-y: hidden;
 }
@@ -102,7 +104,7 @@ p{
     font-size: 14px;
     font-weight: 250;
     line-height: 18px;
-    text-align: left;
+    text-align: justify;
     text-size-adjust: 2px;
     margin: 20px;
 }
@@ -113,11 +115,17 @@ h3{
 h4{
     font-size: 18px;
 }
+.Heading{
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+/* Navbar for mobile*/
+
 /* Logo Div */
 .MediaDiv{
-        z-index: 20;
-    }
-/* Navbar for mobile*/
+  z-index: 20;
+}
 .overlay{
     height: 100%;
     width: 100%;
@@ -175,6 +183,8 @@ h4{
  /* burger navbar */
 .Bars{
     margin-left: -5vw;
+    font-size: 1.5em !important;
+    margin-top: 2vh;
 }
 
 
@@ -189,6 +199,7 @@ h4{
 }
 
 
+  /* index*/
 .parallax {
     /* Full height */
     height: 100%; 
@@ -200,11 +211,6 @@ h4{
     background-size: cover;
   }
 
-
-
-
-  /* index*/
-
   .heroImage{
   
     height:100%;
@@ -212,12 +218,6 @@ h4{
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-
-
-  
-  
-
 
 /*Desktop navbar */
 .navbar-expand-lg{
@@ -229,33 +229,11 @@ h4{
     display: none;
 }
 
-
-
-
-/*contact section/page */
-.FormButton{
-    color: white;
-    background-color: #0f0f0e;
-    border-radius: 50px;
-    font-weight: 600;
-    width: 60vw;
-    padding: 10px;
-    margin-left: 20vw;
-}
-  /* form section */
-
-/*about us page*/
-.icon{
-    display: inline-block;
-    font-size: 1.5em;
-    border: 1.5px solid white;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    padding-top: 7px;
-    /* background-color: white; */
-    background-color:  rgb(209, 204, 204);
+/* About section */
+.AboutUsImage{
+  margin-left: 7vw;
+  padding: 15px;
+ 
 }
 
 /* Team section */
@@ -264,36 +242,17 @@ h4{
   padding: 15px;
   height: 45vh;
 }
-
-
-
-/* footer section */
- /* footer text */
-
- .FooterText{
-   margin-top: -3vh;
- }
- .icons{
-    display: inline-block;
-    font-size: 1.1em;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    padding-top: 7px;
-    
-}
- .CopyText{
-    text-align: center;
-    font-size: 14px;
-    font-weight:400 ;
-    color: #000;
-}
-.FullName{
-    color:#000;
-}
-.FullName:hover,a:hover{
-    color:gray;
+.icon{
+  display: inline-block;
+  font-size: 1.5em;
+  border: 1.5px solid white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  /* background-color: white; */
+  background-color:  rgb(209, 204, 204);
 }
 
 /*contact section/page */
@@ -306,10 +265,13 @@ h4{
   padding: 10px;
   margin-left: 20vw;
 }
+
+
+
 /* form section */
 .form-control{
   background-color: rgb(209, 204, 204);
-  color: rgb(255, 255, 255);
+  color: #132743;
   font-weight: 400;
 }
 
@@ -317,16 +279,41 @@ h4{
   font-size: 14px;
   border: none;
   color: rgb(3, 3, 3);
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #132743;
   width: 80vw;
   
 }
 
+/* footer section */
+ /* footer text */
 
-footer{
-    margin-top: -3vh;
+
+ .icons{
+  display: inline-block;
+  font-size: 1.1em;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  
+}
+.CopyText{
+  text-align: center;
+  font-size: 14px;
+  font-weight:400 ;
+  color: #000;
+}
+.FullName{
+  color:#000;
+}
+.FullName:hover,a:hover{
+  color:gray;
 }
 
+.FooterText{
+    margin-top: -3vh;
+}
 
 
 
@@ -338,27 +325,42 @@ footer{
  /* // -Small devices (landscape phones, 576px and up) */
  @media (min-width: 576px) and (orientation: landscape) { 
  
-
-    
-
   
  }
  
  /* -Medium devices (tablets or ipad) */
  @media (min-width: 768px) {
 
+/* General  */
+   /* burger navbar */
+ .Bars{
+  margin-left: 5vw;
+}
+
+/*  */
   /*Team section  */
   .TeamText{
-    margin-left: 10vw;
+    margin-left: 6vw;
   }
  
-
+/* Contact section */
 .FormButton{
     width: 25vw;
     margin-left: 20vw;
 }
 
+/* Team section */
+.pic{
+  margin-left: 14vw;
+  height: 30vh;
+}
 
+/* About section */
+.AboutUsImage{
+  margin-left: 12vw;
+  padding: 15px;
+ 
+}
 
 
 }
@@ -376,10 +378,16 @@ footer{
         color: gray !important;
         text-transform: lowercase;
         } 
-
-
+        .DesktopOnly{
+          display: block;
+        }
+    iframe{
+      width:45vw;
+      height :33vh;
       
-   
+    }
+
+    
     .LogoImage{
         transform: translate(-0.2vw,2vh);
     }
@@ -388,7 +396,7 @@ footer{
     }
 
     .navbar-nav{
-        transform: translateX(190px);
+        transform: translateX(-20px);
         
       }
  
@@ -402,23 +410,24 @@ footer{
 /* Team section */
 .pic{
   height: 20vh;
+  margin-left: 1vw;
 }
 
   .TeamText{
-    margin-left: 10vw;
+    margin-left: 1vw;
   }
-
-
-
-
-
+  /* Footer section */
+  .FooterText{
+    margin-top: -1vh;
+  }
+ 
     
  }
  @media screen and (min-width: 1200px) {
 
   /* navbar section */
   .navbar-nav{
-    transform: translateX(270px);
+    transform: translateX(440px);
     
   }
  .pic{
@@ -428,6 +437,25 @@ footer{
  .TeamText{
   margin-left: 5vw;
 }  
+
+/* Contact section */
+iframe{
+  width:40vw;
+   height :62vh;
+   
+}
+/* About section */
+.FooterTextAbout{
+  margin-top: 15vh;
+}
+/* Services section */
+.card{
+  border: none;
+}
+.ico{
+  font-size: 3em;
+}
+
  
    }
   
