@@ -73,14 +73,24 @@ strong{
 
 
 /* Scroll bar */
-body::-webkit-scrollbar {
-  width: 0.2em;
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  
 }
 
-body::-webkit-scrollbar-thumb {
-background-color:  gray;
-outline: 1px solid rgb(7, 7, 7);
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
 }
 
 
@@ -211,6 +221,12 @@ h4{
     background-size: cover;
   }
 
+  .indexBox{
+    position: fixed;
+    bottom: 40vh;
+    color:black;
+    background-color: rgb(241, 238, 238, 0.2);
+}
   .heroImage{
   
     height:100%;
@@ -405,7 +421,7 @@ h4{
       
     }
 
-    
+    /* Navbar */
     .LogoImage{
         transform: translate(-0.2vw,2vh);
     }
@@ -418,7 +434,12 @@ h4{
         
       }
  
-
+/* index section */
+.indexBox{
+  top: 40vh;
+  width: 70vw;
+  left: 15vw;
+}
 
   /* Contact Page :Lesedi */
 .FormButton{
@@ -430,7 +451,6 @@ h4{
   height: 20vh;
   margin-left: 1vw;
 }
-
   .TeamText{
     margin-left: 1vw;
   }
