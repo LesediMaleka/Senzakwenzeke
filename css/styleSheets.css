@@ -255,6 +255,23 @@ h4{
   background-color:  rgb(209, 204, 204);
 }
 
+/* Donate page sction */
+.DonatePage{
+  background-image: url(../assets/Images/Homepage/h.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+ 
+}
+/* .DonateHeading{
+  margin-top: 5vh;
+} */
+.DonatePageIcons{
+  color:white;
+  font-size: 2.5em;
+
+}
+
 /*contact section/page */
 .FormButton{
   color: white;
@@ -382,8 +399,9 @@ h4{
           display: block;
         }
     iframe{
+      margin-top: 2vh;
       width:45vw;
-      height :33vh;
+      height :34.3vh;
       
     }
 
@@ -427,7 +445,7 @@ h4{
 
   /* navbar section */
   .navbar-nav{
-    transform: translateX(440px);
+    transform: translateX(280px);
     
   }
  .pic{
@@ -441,7 +459,7 @@ h4{
 /* Contact section */
 iframe{
   width:40vw;
-   height :62vh;
+   height :75vh;
    
 }
 /* About section */
@@ -455,6 +473,11 @@ iframe{
 .ico{
   font-size: 3em;
 }
+  /* Footer section */
+  .FooterText{
+    margin-top: -3vh;
+  }
+ 
 
  
    }
