@@ -33,13 +33,15 @@
   
     .Desktop{
       display: block;
-      color: black;
+      color: #050A30 !important;
           z-index: 2;
           position: fixed;
       } 
   
   
   }
-  
+
+
+
   
   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}

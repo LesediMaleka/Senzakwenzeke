@@ -248,6 +248,19 @@ h4{
   padding: 15px;
  
 }
+.SuccessStoriesIcon{
+  font-size: 20em;
+  margin-left: 5vw;
+}
+.SuccessStoriesText{
+ transform: translateY(-48vh);
+  z-index: 2;
+  padding: 15px;
+
+  font-size: 1.4em;
+  color:  rgb(186,215,223);
+  margin-bottom: -25vh;
+}
 
 /* Team page */
 .pic{
@@ -372,6 +385,9 @@ h4{
     width: 25vw;
     margin-left: 20vw;
 }
+.indexBox{
+  margin-left: 8vw;
+}
 
 /* Team section */
 .pic{
@@ -400,7 +416,7 @@ h4{
   .Desktop{
     display: block;
     color: #050A30 !important;
-    text-transform: capitalize;
+    
     } 
   .DesktopOnly{
     display: block;
@@ -427,7 +443,8 @@ h4{
    
 /* index page */
 .indexBox{
-  top: 40vh;
+  padding-top: 20px;
+  top: 50vh;
   width: 70vw;
   left: 15vw;
 }
@@ -476,6 +493,12 @@ h4{
    height: 40vh;
    margin-left: 8vw;
  } 
+ .indexBox{
+  padding-top: -10px;
+  top: 40vh;
+  left: 8vw;
+  
+}
   .TeamText{
     margin-left: 5vw;
   }  
