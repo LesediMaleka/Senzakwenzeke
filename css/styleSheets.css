@@ -59,10 +59,8 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    /* background-color: bisque; */
     background-color: white;
     font-family: 'Old Standard TT', serif;
-    /* font-family: 'Questrial', sans-serif;*/
     color: #050A30;
     overflow-x: hidden; 
     overflow-y: hidden;
@@ -89,7 +87,7 @@ strong{
   border-radius: 10px;
 }
 
-/* icons */
+/* icons and anchor tags*/
 .icon a{
     color: #050A30;
 }
@@ -106,6 +104,7 @@ a:hover{
 
 h1, h2 {
   font-family: 'Old Standard TT', serif;
+  font-weight: 600;
 }
 
 /* paragraph text for all the pages and sections */
@@ -122,10 +121,12 @@ h3{
     text-align: left;
     margin-left: 1vw;
     font-family: 'Old Standard TT', serif;
+    font-weight: 350;
 }
 h4{
     font-size: 18px;
     font-family: 'Old Standard TT', serif;
+    font-weight: 350;
     
 }
 .Heading{
@@ -148,7 +149,6 @@ h4{
     top: 0;
     left: 0;
     background-color: rgb(186,215,223);
-    /*   background: rgb(186,215,223); */
     color:#050A30;
     overflow: hidden; 
     transition: 0.7s;
@@ -213,50 +213,43 @@ h4{
 }
 
 
-  /* index*/
-.parallax {
-    /* Full height */
+  /* index / homepage*/
+.SenzakwenzekeIndexImages{
     height: 100%; 
-    /* height: auto; */
-  
     /* Create the parallax scrolling effect */
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
   }
 
   .indexBox{
     position: fixed;
+    padding-top: 20px;
+    margin: 10px;
     bottom: 40vh;
     color:#050A30;
     background-color: rgba(186,215,223, 0.2);
 }
-  .heroImage{
-  
-    height:100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
 
 /*Desktop navbar */
 .navbar-expand-lg{
     color: #050A30 !important;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 /*  general classes*/
 .hideMobile{
     display: none;
 }
 
-/* About section */
+/* About page */
 .AboutUsImage{
   margin-left: 7vw;
   padding: 15px;
  
 }
 
-/* Team section */
+/* Team page */
 .pic{
   margin-left: 6vw;
   padding: 15px;
@@ -265,7 +258,6 @@ h4{
 .icon{
   display: inline-block;
   font-size: 1.4em;
-  /* border: 1.5px solid #050A30; */
   border-radius: 50%;
   height: 40px;
   width: 40px;
@@ -273,21 +265,10 @@ h4{
   padding-top: 10px;
   background-color:  rgb(186,215,223);
 }
-
-/* Donate page sction */
-/* .DonatePage{
-  background-image: url(../assets/Images/Homepage/h.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 1;
-  
-  
- 
-} */
+/* donate page */
 .DonateBox{
   border: 3px solid #050A30;
   padding: 10px;
-  /* background-color:  rgb(186,215,223); */
   border-radius: 10%;
   margin-bottom: 5vh;
   margin: 10px;
@@ -299,7 +280,7 @@ h4{
 
 }
 
-/*contact section/page */
+/*contact page */
 .FormButton{
   color:  rgb(186,215,223);
   background-color: #050A30;
@@ -381,7 +362,6 @@ h4{
   margin-left: 5vw;
 }
 
-/*  */
   /*Team section  */
   .TeamText{
     margin-left: 6vw;
@@ -411,53 +391,53 @@ h4{
  
  /* -Large devices (ipad pro) */
  @media (min-width: 992px) { 
-    .mobile-only{
-        display: none;
-    }
-    .hide{
-        display: none;
-    }
-    .Desktop{
-        display: block;
-        color: #050A30 !important;
-        text-transform: capitalize;
-        } 
-        .DesktopOnly{
-          display: block;
-        }
-    iframe{
-      margin-top: 2vh;
-      width:45vw;
-      height :34.3vh;
+  .mobile-only{
+      display: none;
+  }
+  .hide{
+      display: none;
+  }
+  .Desktop{
+    display: block;
+    color: #050A30 !important;
+    text-transform: capitalize;
+    } 
+  .DesktopOnly{
+    display: block;
+  }
+  iframe{
+    margin-top: 2vh;
+    width:45vw;
+    height :34.3vh;
+    
+  }
+
+  /* Navbar */
+  .LogoImage{
+      transform: translate(-0.2vw,2vh);
+  }
+  .IntialNavbarLogoImage{
+      transform: translate(2vw,2vh);
+  }
+
+  .navbar-nav{
+      transform: translateX(10px);
       
     }
-
-    /* Navbar */
-    .LogoImage{
-        transform: translate(-0.2vw,2vh);
-    }
-    .IntialNavbarLogoImage{
-        transform: translate(2vw,2vh);
-    }
-
-    .navbar-nav{
-        transform: translateX(-20px);
-        
-      }
    
-/* index section */
+/* index page */
 .indexBox{
   top: 40vh;
   width: 70vw;
   left: 15vw;
 }
 
-  /* Contact Page :Lesedi */
+  /* Contact Page  */
 .FormButton{
     width: 15vw;
     margin-left: 12vw;
 }
-/* Team section */
+/* Team page */
 .pic{
   height: 20vh;
   margin-left: 1vw;
@@ -489,34 +469,34 @@ h4{
 
   /* navbar section */
   .navbar-nav{
-    transform: translateX(330px);
+    transform: translateX(360px);
     
   }
  .pic{
    height: 40vh;
    margin-left: 8vw;
  } 
- .TeamText{
-  margin-left: 5vw;
-}  
+  .TeamText{
+    margin-left: 5vw;
+  }  
 
-/* Contact section */
-iframe{
-  width:40vw;
-   height :75vh;
-   
-}
-/* About section */
-.FooterTextAbout{
-  margin-top: 15vh;
-}
-/* Services section */
-.card{
-  border: none;
-}
-.ico{
-  font-size: 3em;
-}
+  /* Contact page*/
+  iframe{
+    width:40vw;
+    height :75vh;
+    
+  }
+  /* About page */
+  .FooterTextAbout{
+    margin-top: 15vh;
+  }
+  /* Services page */
+  .card{
+    border: none;
+  }
+  .ico{
+    font-size: 3em;
+  }
   /* Footer section */
   .FooterText{
     margin-top: -3vh;
