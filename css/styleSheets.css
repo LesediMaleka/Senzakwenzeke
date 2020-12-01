@@ -440,6 +440,7 @@ h4{
   .Desktop{
     display: block;
     color: #050A30 !important;
+    margin-top: -8vh;
     
     } 
   .DesktopOnly{
@@ -461,7 +462,7 @@ h4{
   }
 
   .navbar-nav{
-      transform: translateX(10px);
+      transform: translateX(10vw);
       
     }
    
@@ -516,7 +517,7 @@ h4{
 
   /* navbar section */
   .navbar-nav{
-    transform: translateX(360px);
+    transform: translateX(32vw);
     
   }
  .pic{
