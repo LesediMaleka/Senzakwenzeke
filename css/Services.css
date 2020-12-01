@@ -9,6 +9,7 @@
 .hide{
     display: block;
 }
+
 .hid{
     display: none;
 }
@@ -31,6 +32,10 @@ font-size: 2em;
  /* -Medium devices (tablets or ipad) */
  @media (min-width: 768px) {
 
+    .iconn{
+        margin-left: 45vw;
+        }
+
 }
  
  /* -Large devices (ipad pro) */
@@ -47,16 +52,15 @@ font-size: 2em;
     }
     .hid{
         display: block;
-    }
-    .ContactDiv{
-        margin-top: 2vh;
         margin-left: 3vw;
     }
+    
     .card{
         border: none;
     }
     .ico{
         font-size: 3em;
+        margin-left: 3vw;
     }
 
    
