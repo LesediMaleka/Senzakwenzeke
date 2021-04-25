@@ -362,7 +362,7 @@ h4{
   font-weight:400 ;
   color: #050A30;
 }
-.FullName{
+p.FullName{
   color:  rgb(186,215,223) !important;
 }
 .FullName:hover,a:hover{
